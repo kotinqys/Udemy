@@ -16,6 +16,8 @@ You will also see any lint errors in the console.
 ### `yarn server`
 
 Runs server json-server
+on [http://localhost:3001](http://localhost:3001)] to view it in the browser.
+(http://localhost:3001/users)-users
 
 ### `yarn test`
 
