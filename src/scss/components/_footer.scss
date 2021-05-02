@@ -1,0 +1,50 @@
+.footer{
+    &__about{
+        margin: 10px 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__body{
+        display: flex;
+        flex-direction: row;
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px;
+        margin-right: 20px;
+        a{
+            margin-top: 10px;
+            color: #0f7c90;
+            font-size: 13px;
+        }
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        font-size: 14px;
+        font-weight: 700;
+        height: 40px;
+        img{
+            width: 24px;
+        }
+        img:last-child{
+            width: 10px;
+        }
+    }
+    &__end{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        padding: 40px 0px;
+        font-size: 10px;
+        color: #73726c;
+        margin-right: 40px;
+        img{
+            width: 110px;
+        }
+    }
+}
+

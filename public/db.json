@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Serikov Dias",
+      "email": "serikov.2002.12@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": 2,
+      "fullname": "Ahmed Mukhamed",
+      "email": "ahmed.2002.12@gmail.com",
+      "password": "123789"
+    },
+    {
+      "fullname": "ilyas",
+      "email": "serikov.tima07@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "fullname": "tima ascascascascasc",
+      "email": "serikov.tima07@gmail.com",
+      "password": "123458",
+      "id": 4
+    },
+    {
+      "fullname": "dddddd",
+      "email": "dddddd",
+      "password": "ddddddd",
+      "id": 5
+    },
+    {
+      "fullname": "диас",
+      "email": "serikov.tima07@gmail.com",
+      "password": "123456",
+      "id": 6
+    }
+  ]
+}

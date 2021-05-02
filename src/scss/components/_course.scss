@@ -1,0 +1,30 @@
+.course{
+    border: 1px solid #989586;
+    padding: 32px;
+    border-radius: 5px;
+    margin-top: 20px;
+    &__body{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    }
+    &__about{
+        max-width: 500px;
+        h2{
+            font-size: 22px;
+            font-weight: 700;
+        }
+        p{
+            margin: 10px 0px 15px 0px;
+            font-size: 14px;
+        }
+        .button{
+            padding: 0px 10px;
+        }
+    }
+    &__author{
+        img{
+            width: 160px;
+        }
+    }
+}

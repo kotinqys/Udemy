@@ -1,0 +1,30 @@
+@import './normalize';
+@import './components/header';
+@import './components/billboard';
+@import './components/courses';
+@import './components/course';
+@import './components/cart';
+@import './components/udemyInfo';
+@import './components/slider';
+@import './components/category';
+@import './components/teacher';
+@import './components/sponsors';
+@import './components/footer';
+@import './components/login';
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; 
+}
+.footer {
+    margin-top: auto;
+}
+
+#root{
+    height: 969px;
+}

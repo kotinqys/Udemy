@@ -1,0 +1,36 @@
+.cart{
+    cursor: pointer;
+    img{
+        width: 180px;
+    }
+    &__name{
+        font-size: 14px;
+    }
+    &__author{
+        margin:5px 0px;
+        font-size: 12px;
+    }
+    &__price {
+        font-weight: 700;
+        span{
+            font-size: 15px;
+            text-decoration:line-through;
+            font-weight: 300;
+            margin-left: 10px;
+        }
+    }
+    &__rating{
+        display: flex;
+        font-size: 14px;
+        font-weight: 700;
+        color: #be5a0e
+    }
+}
+
+.checked{
+    color: orange;
+}
+
+.rating{
+    margin-left: 5px;
+}

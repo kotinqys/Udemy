@@ -1,0 +1,47 @@
+.billboard{
+    position: relative;
+    img{
+        max-width: 1200px;
+
+    }
+
+    .container{
+        position: relative;
+    }
+    &__content-box{
+        position: absolute;
+        top:60px;
+        left: 30px;
+        background-color: #fff;
+        padding: 20px;
+        max-width: 400px;
+        h1{
+            letter-spacing: 0.4px;
+            font-size: 34px;
+        }
+        p{
+            margin: 5px 0px;
+            font-size: 18px;
+        }
+    }
+    &__search {
+        margin-top: 15px;
+        form {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid #989586;
+            border-radius: 5px;
+            input{
+                margin: 13px ;
+                border: none;
+                width: 90%;
+            }
+
+            button{
+                padding: 3px 10px 0px 0px;
+                border: none;
+                background-color: inherit;
+            }
+        }
+    }
+}
